@@ -1,0 +1,20 @@
+{
+  "name": "data-centre-skills",
+  "version": "1.0.0",
+  "description": "Data Centre Skills Desktop App",
+  "author": "Abstream Tech",
+  "main": "main.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development electron .",
+    "build": "electron-builder build --config electron-builder.json"
+  },
+  "dependencies": {
+    "electron-updater": "^6.8.3"
+  },
+  "devDependencies": {
+    "electron": "^40.6.1",
+    "concurrently": "^9.2.1",
+    "electron-builder": "^26.8.1",
+    "wait-on": "^9.0.4"
+  }
+}

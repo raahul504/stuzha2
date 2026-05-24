@@ -1,0 +1,13 @@
+node_modules/
+.env
+*.log
+.DS_Store
+storage/videos/*
+storage/documents/*
+storage/certificates/*
+!storage/.gitkeep
+
+frontend/dist
+electron/dist
+
+dist-electron/
